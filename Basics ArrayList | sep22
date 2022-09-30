@@ -15,13 +15,13 @@ public class Main{
         String e = "EE";
         cars.add(e);
         
-        System.out.println(cars);
+        System.out.println(cars);           // [A, Tata, C, D, EE]
         System.out.println(cars.get(1));    // can't do cars[1], only possible in array
         
         
         // Setting a value (only changes values, which are in existence)
         cars.set(2,"CCC");
-        System.out.println(cars);
+        System.out.println(cars);           //[A, Tata, CCC, D, EE]
         
         // Removes value 
         cars.remove(2);
