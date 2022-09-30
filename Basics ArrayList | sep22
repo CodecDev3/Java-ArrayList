@@ -16,7 +16,7 @@ public class Main{
         cars.add(e);
         
         System.out.println(cars);           // [A, Tata, C, D, EE]
-        System.out.println(cars.get(1));    // can't do cars[1], only possible in array
+        System.out.println(cars.get(1));    // Tata         // can't do cars[1], only possible in array
         
         
         // Setting a value (only changes values, which are in existence)
@@ -25,10 +25,10 @@ public class Main{
         
         // Removes value 
         cars.remove(2);
-        System.out.println(cars);
+        System.out.println(cars);           //[A, Tata, D, EE]
         
         // Length of ArrayList
-        System.out.println(cars.size());
+        System.out.println(cars.size());    
 
 
         // printing values one by one
@@ -43,7 +43,7 @@ public class Main{
         
         // Clears entire ArrayList
         cars.clear();
-        System.out.println(cars);
+        System.out.println(cars);           //[]
         
         
     }
