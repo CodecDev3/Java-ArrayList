@@ -48,3 +48,27 @@ public class Main{
         
     }
 }
+   
+   // -------------------- Integer --------------------
+    
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main{
+    public static void main(String args[]){
+        ArrayList<Integer> num = new ArrayList<Integer>();
+        
+        num.add(10);
+        int b = 20;
+        num.add(b);
+        int c = 15;
+        num.add(b-c);
+        num.add(999);
+        
+        System.out.println(num);            //[10, 20, 5, 999]
+        
+        Collections.sort(num);
+        
+        System.out.println(num);            //[5, 10, 20, 999]
+       }
+}
