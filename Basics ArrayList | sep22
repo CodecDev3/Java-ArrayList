@@ -70,5 +70,11 @@ public class Main{
         Collections.sort(num);
         
         System.out.println(num);            //[5, 10, 20, 999]
+        
+        // can even add a number at a position (not set)
+        //Suppose
+        num.add(2,500);
+        System.out.println(num);            //[5, 10, 500, 20, 999]
+        
        }
 }
