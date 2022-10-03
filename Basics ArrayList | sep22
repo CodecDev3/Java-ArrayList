@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main{
     public static void main(String args[]){
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<String>();           // OR       ArrayList<String> cars = new ArrayList<>();
         
         cars.add("A");
         // cars.add[1] = "Tata";        // can't do
